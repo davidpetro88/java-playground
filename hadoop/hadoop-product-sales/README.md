@@ -1,0 +1,17 @@
+# hadoop-product-sales
+
+Run App main, to find the best price.
+The out in file part-r-00000 is like
+```
+CARREGADOR	Product{price=70.0, data='01/01/2015 18:00'}
+HD 1TB	Product{price=450.0, data='01/01/2015 18:31'}
+HD 500GB	Product{price=444.0, data='01/01/2015 17:30'}
+HMOCHILA	Product{price=143.0, data='01/02/2015 16:30'}
+MEMORIA RAM	Product{price=450.0, data='01/02/2015 18:22'}
+MOCHILA	Product{price=150.0, data='01/01/2015 18:32'}
+MOUSE	Product{price=90.0, data='01/01/2015 14:30'}
+NOTEBOOK	Product{price=990.0, data='01/01/2015 17:00'}
+PEN DRIVE	Product{price=20.0, data='01/02/2015 20:10'}
+ROTEADOR	Product{price=120.0, data='01/01/2015 18:30'}
+```
+
