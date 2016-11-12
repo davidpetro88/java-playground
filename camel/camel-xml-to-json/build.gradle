@@ -1,0 +1,20 @@
+group 'br.com.camel'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.apache.camel', name: 'camel-core', version: '2.18.0'
+    compile group: 'org.apache.camel', name: 'camel-xmljson', version: '2.18.0'
+    compile group: 'org.apache.camel', name: 'camel-http4', version: '2.18.0'
+    compile group: 'org.apache.camel', name: 'camel-jms', version: '2.18.0'
+    compile group: 'xom', name: 'xom', version: '1.2.5'
+
+}
