@@ -1,4 +1,4 @@
-package br.com.javaoo.solid.opencloseedip;
+package br.com.javaoo.solid.openclose;
 
 /**
  * Created by david on 28/12/16.
