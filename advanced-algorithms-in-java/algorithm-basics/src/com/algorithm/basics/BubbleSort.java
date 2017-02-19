@@ -1,4 +1,4 @@
-package com.search.linear;
+package com.algorithm.basics;
 
 import java.util.Random;
 import java.util.stream.IntStream;
