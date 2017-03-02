@@ -5,9 +5,12 @@ import java.util.PriorityQueue;
 public class App {
 	
 	public static void main(String[] args) {
-		testPriorityQueue();
+		System.out.println("Example 1");
 		ex1();
+		System.out.println("Example 2");
 		ex2();
+		System.out.println("Example testPriorityQueue");
+		testPriorityQueue();
 	}
 
 	private static void testPriorityQueue() {

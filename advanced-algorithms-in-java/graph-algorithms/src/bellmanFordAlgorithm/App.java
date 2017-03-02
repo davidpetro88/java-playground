@@ -18,6 +18,9 @@ public class App {
 		
 		System.out.println(" \n Run example 2");
 		ex2NegativeEdgeWeightCycles();
+
+		System.out.println(" \n Run example 3");
+		ex3();
 	}
 	
 	private static void ex1() {
@@ -52,6 +55,19 @@ public class App {
 		edgeList.add(new Edge(vertexList.get(0),vertexList.get(1),1));
 		edgeList.add(new Edge(vertexList.get(1),vertexList.get(2),-1));
 		edgeList.add(new Edge(vertexList.get(2),vertexList.get(0),-11));
+		BellmanFord bellmannFordAlgorithm = new BellmanFord(vertexList,edgeList);
+		bellmannFordAlgorithm.bellmanFord(vertexList.get(0),vertexList.get(2));
+	}
+	private static void ex3() {
+		List<Vertex> vertexList = new ArrayList<>();
+		vertexList.add(new Vertex("A"));
+		vertexList.add(new Vertex("B"));
+		vertexList.add(new Vertex("C"));
+
+		List<Edge> edgeList = new ArrayList<>();
+		edgeList.add(new Edge(vertexList.get(0),vertexList.get(1),1));
+		edgeList.add(new Edge(vertexList.get(0),vertexList.get(2),10));
+		edgeList.add(new Edge(vertexList.get(1),vertexList.get(2),1));
 		BellmanFord bellmannFordAlgorithm = new BellmanFord(vertexList,edgeList);
 		bellmannFordAlgorithm.bellmanFord(vertexList.get(0),vertexList.get(2));
 	}

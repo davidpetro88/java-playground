@@ -14,7 +14,6 @@ public class BellmanFord {
 	public void bellmanFord(Vertex sourceVertex, Vertex targetVertex) {
 
 		sourceVertex.setMinDistance(0);
-
 		
 		for (Vertex vertex : vertexList) {
 			for (Edge edge : edgeList) {
@@ -81,8 +80,4 @@ public class BellmanFord {
 	private boolean hasCycle(Edge edge){
 		return edge.getTargetVertex().getMinDistance() > edge.getStartVertex().getMinDistance() + edge.getWeight();
 	}
-	
-	
-	
-	
 }

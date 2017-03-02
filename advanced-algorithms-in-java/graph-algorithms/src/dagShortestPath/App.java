@@ -20,6 +20,8 @@ public class App {
 		ex1();
 		System.out.println(" \n Run example 2");
 		ex2();
+		System.out.println(" \n Run example 3");
+		ex3();
 
 	}
 	
@@ -40,8 +42,25 @@ public class App {
 		AcyclicShortestPath acyclicShortestPath = new AcyclicShortestPath();
 		acyclicShortestPath.shortestPath(vertexList, vertex0, vertex2);
 	}
-
 	private static void ex2() {
+		Vertex vertex0 = new Vertex("A");
+		Vertex vertex1 = new Vertex("B");
+		Vertex vertex2 = new Vertex("C");
+
+		List<Vertex> vertexList = new ArrayList<>();
+		vertexList.add(vertex0);
+		vertexList.add(vertex1);
+		vertexList.add(vertex2);
+
+		vertex0.addNeighbour(new Edge(1, vertex0, vertex1));
+		vertex0.addNeighbour(new Edge(10, vertex1, vertex2));
+//		vertex1.addNeighbour(new Edge(1, vertex1, vertex2));
+
+		AcyclicShortestPath acyclicShortestPath = new AcyclicShortestPath();
+		acyclicShortestPath.shortestPath(vertexList, vertex0, vertex2);
+	}
+
+	private static void ex3() {
 		Vertex vertex0 = new Vertex("r");
 		Vertex vertex1 = new Vertex("t");
 		Vertex vertex2 = new Vertex("x");
