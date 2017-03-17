@@ -20,6 +20,8 @@ public class KruskalAlgorithm {
 		    for (Edge e : edgeList) {
 		      Vertex u = e.getStartVertex();
 		      Vertex v = e.getTargetVertex();
+
+//				this validate if different because we don't can add cycle.
 		      if (disjointSet.find(u.getNode()) != disjointSet.find(v.getNode())) {
 		        /* Vertices v and u are not in the same component */
 		        tree.add(e);

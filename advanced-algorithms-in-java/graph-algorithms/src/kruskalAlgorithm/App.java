@@ -9,7 +9,15 @@ public class App {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
+
+		System.out.println("Run Example 1");
+		ex1();
+		System.out.println(" \nRun Example 2");
+		ex2();
+
+	}
+
+	private static void ex1() {
 		List<Vertex> vertexList = new ArrayList<>();
 		vertexList.add(new Vertex("A"));
 		vertexList.add(new Vertex("B"));
@@ -19,7 +27,7 @@ public class App {
 		vertexList.add(new Vertex("F"));
 		vertexList.add(new Vertex("G"));
 		vertexList.add(new Vertex("H"));
-		
+
 		List<Edge> edgeList = new ArrayList<>();
 		edgeList.add(new Edge(vertexList.get(0), vertexList.get(1), 3));
 		edgeList.add(new Edge(vertexList.get(0), vertexList.get(2), 2));
@@ -35,11 +43,24 @@ public class App {
 		edgeList.add(new Edge(vertexList.get(5), vertexList.get(6), 2));
 		edgeList.add(new Edge(vertexList.get(5), vertexList.get(7), 3));
 		edgeList.add(new Edge(vertexList.get(6), vertexList.get(7), 6));
-		
+
 		KruskalAlgorithm kruskalAlgorithm = new KruskalAlgorithm();
 		kruskalAlgorithm.spanningTree(vertexList, edgeList);
-		
+	}
 
+	private static void ex2() {
+		List<Vertex> vertexList = new ArrayList<>();
+		vertexList.add(new Vertex("A"));
+		vertexList.add(new Vertex("B"));
+		vertexList.add(new Vertex("C"));
+
+		List<Edge> edgeList = new ArrayList<>();
+		edgeList.add(new Edge(vertexList.get(0), vertexList.get(1), 1));
+		edgeList.add(new Edge(vertexList.get(0), vertexList.get(2), 2));
+		edgeList.add(new Edge(vertexList.get(1), vertexList.get(2), 1));
+
+		KruskalAlgorithm kruskalAlgorithm = new KruskalAlgorithm();
+		kruskalAlgorithm.spanningTree(vertexList, edgeList);
 	}
 
 }
