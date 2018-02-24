@@ -7,7 +7,6 @@ public class Producer implements Runnable {
     private List<Integer> questionList = null;
     final int LIMIT = 5;
     private int questionNumber;
-    private Object object = new Object();
 
     public Producer(List<Integer> questionList) {
         this.questionList = questionList;
@@ -31,6 +30,12 @@ public class Producer implements Runnable {
 
     @Override
     public void run() {
-
+        while (true){
+            try {
+                readQuestion(questionNumber++);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
