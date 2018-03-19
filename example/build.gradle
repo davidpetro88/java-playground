@@ -10,5 +10,6 @@ repositories {
 }
 
 dependencies {
+    compile files('./lib/mysql-connector-java-5.1.45-bin.jar')
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
