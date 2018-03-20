@@ -1,4 +1,4 @@
-package com.example.oop.ex2;
+package com.example.oop.inheritance.ex2;
 
 public class Fish extends Animal {
 

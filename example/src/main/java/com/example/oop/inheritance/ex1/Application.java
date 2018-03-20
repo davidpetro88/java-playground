@@ -1,4 +1,4 @@
-package com.example.oop.ex1;
+package com.example.oop.inheritance.ex1;
 
 public class Application {
 
@@ -11,7 +11,7 @@ public class Application {
         // 1.  To allow the customer to deposit funds (this should increment the balance field).
         // 2.  To allow the customer to withdraw funds.  This should deduct from the balance field,
         // but not allow the withdrawal to complete if their are insufficient funds.
-        // You will want to create various code in the Main class (the one created by IntelliJ) to
+        // You will want to create various code in the Application class (the one created by IntelliJ) to
         // confirm your code is working.
         // Add some System.out.println's in the two methods above as well.
 

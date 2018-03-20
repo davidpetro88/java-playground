@@ -1,4 +1,4 @@
-package com.example.oop.inheritance;
+package com.example.oop.inheritance.ex3;
 
 public class Application {
     public static void main(String[] args) {

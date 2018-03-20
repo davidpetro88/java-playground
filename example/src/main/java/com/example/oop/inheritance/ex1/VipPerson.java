@@ -1,4 +1,4 @@
-package com.example.oop.ex1;
+package com.example.oop.inheritance.ex1;
 
 public class VipPerson {
     private String name;

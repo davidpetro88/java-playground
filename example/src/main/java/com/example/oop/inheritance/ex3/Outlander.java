@@ -1,4 +1,4 @@
-package com.example.oop.inheritance;
+package com.example.oop.inheritance.ex3;
 
 public class Outlander extends Car {
     private int roadServiceMonths;
