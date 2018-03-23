@@ -6,11 +6,11 @@ package com.example.thread.ex5;
  */
 public class Application {
 
-    public static void main(String[] args) {
-        Sequence sequence = new Sequence();
+  public static void main(String[] args) {
+    Sequence sequence = new Sequence();
 
-        new Worker("Work_A", sequence).start();
-        new Worker("Work_B", sequence).start();
+    new Worker("Work_A", sequence).start();
+    new Worker("Work_B", sequence).start();
 
-    }
+  }
 }

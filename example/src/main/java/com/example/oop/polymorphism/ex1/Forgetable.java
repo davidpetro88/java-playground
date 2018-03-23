@@ -1,9 +1,9 @@
 package com.example.oop.polymorphism.ex1;
 
 class Forgetable extends Movie {
-    public Forgetable() {
-        super("Forgetable");
-    }
+  public Forgetable() {
+    super("Forgetable");
+  }
 
-    // No plot method
+  // No plot method
 }

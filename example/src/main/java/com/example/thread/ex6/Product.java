@@ -1,16 +1,16 @@
 package com.example.thread.ex6;
 
 public class Product {
-    private int id;
-    private String name;
+  private int id;
+  private String name;
 
-    public Product(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
+  public Product(int id, String name) {
+    this.id = id;
+    this.name = name;
+  }
 
-    public String toString() {
-        return "id: "+ id + " | name: "+ name;
+  public String toString() {
+    return "id: " + id + " | name: " + name;
 
-    }
+  }
 }

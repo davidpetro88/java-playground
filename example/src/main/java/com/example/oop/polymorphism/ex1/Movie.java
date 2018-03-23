@@ -1,17 +1,17 @@
 package com.example.oop.polymorphism.ex1;
 
 class Movie {
-    private String name;
+  private String name;
 
-    public Movie(String name) {
-        this.name = name;
-    }
+  public Movie(String name) {
+    this.name = name;
+  }
 
-    public String plot() {
-        return "No plot here";
-    }
+  public String plot() {
+    return "No plot here";
+  }
 
-    public String getName() {
-        return name;
-    }
+  public String getName() {
+    return name;
+  }
 }
