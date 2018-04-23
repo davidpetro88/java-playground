@@ -1,0 +1,14 @@
+2018-04-21 13:14:40.589  INFO 6419 --- [main] com.rabbit.mq.ex.Application             : Starting Application on MacBook-Air-de-David.local with PID 6419 (/Users/davidpetro/Documents/courses/java/java-playground/rabbit-mq-ex1/out/production/classes started by davidpetro in /Users/davidpetro/Documents/courses/java/java-playground/rabbit-mq-ex1)
+2018-04-21 13:14:40.595  INFO 6419 --- [main] com.rabbit.mq.ex.Application             : No active profile set, falling back to default profiles: default
+2018-04-21 13:14:40.730  INFO 6419 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d3a22a9: startup date [Sat Apr 21 13:14:40 BRT 2018]; root of context hierarchy
+2018-04-21 13:14:43.030  INFO 6419 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-21 13:14:43.055  INFO 6419 --- [main] com.rabbit.mq.ex.Application             : Started Application in 3.437 seconds (JVM running for 4.401)
+2018-04-21 13:16:17.128  INFO 6419 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7d3a22a9: startup date [Sat Apr 21 13:14:40 BRT 2018]; root of context hierarchy
+2018-04-21 13:16:17.150  INFO 6419 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-04-21 13:16:27.135  INFO 6427 --- [main] com.rabbit.mq.ex.Application             : Starting Application on MacBook-Air-de-David.local with PID 6427 (/Users/davidpetro/Documents/courses/java/java-playground/rabbit-mq-ex1/out/production/classes started by davidpetro in /Users/davidpetro/Documents/courses/java/java-playground/rabbit-mq-ex1)
+2018-04-21 13:16:27.153  INFO 6427 --- [main] com.rabbit.mq.ex.Application             : No active profile set, falling back to default profiles: default
+2018-04-21 13:16:27.338  INFO 6427 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@14fc5f04: startup date [Sat Apr 21 13:16:27 BRT 2018]; root of context hierarchy
+2018-04-21 13:16:29.559  INFO 6427 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-21 13:16:29.616  INFO 6427 --- [main] com.rabbit.mq.ex.Application             : Started Application in 4.295 seconds (JVM running for 6.634)
+2018-04-21 13:17:43.323  INFO 6427 --- [Thread-3] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@14fc5f04: startup date [Sat Apr 21 13:16:27 BRT 2018]; root of context hierarchy
+2018-04-21 13:17:43.330  INFO 6427 --- [Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

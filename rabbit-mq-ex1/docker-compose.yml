@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+
+  rabbit:
+    image: rabbitmq:3-management
+    container_name: 'rabbit'
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+       - RABBITMQ_DEFAULT_USER=admin
+       - RABBITMQ_DEFAULT_PASS=123456
+    restart: always
+    networks:
+       - docker-network
+
+  java_rabbitmq:
+    container_name: 'java_rabbitmq'
+    build: .
+#    container_name: 'java-rabbit-mq'
+#    volumes:
+#       - ./:/usr/src/app
+#    build: .
+    ports:
+      - 9001:9001
+    links:
+      - rabbit
+    depends_on:
+      - rabbit
+    restart: always
+    networks:
+       - docker-network
+
+networks:
+  docker-network:
+    driver: bridge
