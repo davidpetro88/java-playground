@@ -1,0 +1,35 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'application'
+version = '0.0.1-SNAPSHOT'
+
+buildscript {
+    ext {
+        springBootVersion = '2.0.1.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+mainClassName = "com.rabbit.mq.ex1.boot.Application"
+sourceCompatibility = 1.8
+repositories {
+    jcenter()
+    mavenCentral()
+}
+dependencies {
+    // https://mvnrepository.com/artifact/org.springframework.amqp/spring-amqp
+    compile group: 'org.springframework.amqp', name: 'spring-amqp', version: '2.0.1.RELEASE'
+    compile group: 'org.springframework.amqp', name: 'spring-rabbit', version: '2.0.1.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.0.1.RELEASE'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    compile group: 'com.google.collections', name: 'google-collections', version: '1.0'
+    compile group: 'com.rabbitmq', name: 'amqp-client', version: '5.2.0'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.5'
+    compile("org.projectlombok:lombok:1.16.20")
+}

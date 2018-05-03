@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  java-rabbitmq:
+    image: rabbitmq:3-management
+    container_name: 'java-rabbitmq'
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+       - RABBITMQ_DEFAULT_USER=admin
+       - RABBITMQ_DEFAULT_PASS=myprodpass
+
+  java-rabbitmq-client:
+    image: java-rabbitmq-client
+    build: .
+    environment:
+      - SPRING_RABBITMQ_ADDRESSES=amqp://admin:myprodpass@rabbitmq:5672
+    links:
+      - rabbitmq
+    ports:
+      - 8080:8080
