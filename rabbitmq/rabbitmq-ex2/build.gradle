@@ -16,14 +16,13 @@ buildscript {
     }
 }
 
-mainClassName = "com.rabbit.mq.ex1.boot.Application"
+mainClassName = "com.rabbitmq.ex2.boot.Application"
 sourceCompatibility = 1.8
 repositories {
     jcenter()
     mavenCentral()
 }
 dependencies {
-    // https://mvnrepository.com/artifact/org.springframework.amqp/spring-amqp
     compile group: 'org.springframework.amqp', name: 'spring-amqp', version: '2.0.1.RELEASE'
     compile group: 'org.springframework.amqp', name: 'spring-rabbit', version: '2.0.1.RELEASE'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter', version: '2.0.1.RELEASE'

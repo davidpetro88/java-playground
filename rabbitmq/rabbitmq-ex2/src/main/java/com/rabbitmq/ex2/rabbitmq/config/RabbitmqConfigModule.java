@@ -1,7 +1,5 @@
-package com.rabbit.mq.ex1.rabbitmq.config;
+package com.rabbitmq.ex2.rabbitmq.config;
 
-import com.rabbit.mq.ex1.rabbitmq.Consumer;
-import com.rabbit.mq.ex1.rabbitmq.Producer;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.Queue;

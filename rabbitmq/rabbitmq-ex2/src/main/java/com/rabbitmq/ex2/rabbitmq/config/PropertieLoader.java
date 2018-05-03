@@ -1,4 +1,4 @@
-package com.rabbit.mq.ex1.rabbitmq.config;
+package com.rabbitmq.ex2.rabbitmq.config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

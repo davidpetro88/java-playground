@@ -1,7 +1,7 @@
-package com.rabbit.mq.ex1.rabbitmq;
+package com.rabbitmq.ex2.rabbitmq;
 
-import com.rabbit.mq.ex1.rabbitmq.config.PropertieLoader;
-import com.rabbit.mq.ex1.rabbitmq.model.CustomMessage;
+import com.rabbitmq.ex2.rabbitmq.config.PropertieLoader;
+import com.rabbitmq.ex2.rabbitmq.model.CustomMessage;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

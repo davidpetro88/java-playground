@@ -1,6 +1,6 @@
-package com.rabbit.mq.ex1.schedule;
+package com.rabbitmq.ex2.schedule;
 
-import com.rabbit.mq.ex1.rabbitmq.Producer;
+import com.rabbitmq.ex2.rabbitmq.Producer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

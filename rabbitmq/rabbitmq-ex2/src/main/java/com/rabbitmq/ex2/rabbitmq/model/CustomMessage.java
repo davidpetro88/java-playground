@@ -1,4 +1,4 @@
-package com.rabbit.mq.ex1.rabbitmq.model;
+package com.rabbitmq.ex2.rabbitmq.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

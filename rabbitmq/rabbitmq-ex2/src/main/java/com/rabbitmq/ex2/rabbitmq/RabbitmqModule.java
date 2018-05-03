@@ -1,6 +1,6 @@
-package com.rabbit.mq.ex1.rabbitmq;
+package com.rabbitmq.ex2.rabbitmq;
 
-import com.rabbit.mq.ex1.rabbitmq.config.PropertieLoader;
+import com.rabbitmq.ex2.rabbitmq.config.PropertieLoader;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
