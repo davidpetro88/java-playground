@@ -2,7 +2,7 @@ package com.example.thread.ex4;
 
 
 /**
- * Example thread not safe
+ * Application thread not safe
  */
 public class Application {
 

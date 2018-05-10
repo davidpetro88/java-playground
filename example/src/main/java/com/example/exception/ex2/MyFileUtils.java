@@ -1,4 +1,4 @@
-package com.example.exception;
+package com.example.exception.ex2;
 
 public class MyFileUtils {
 
