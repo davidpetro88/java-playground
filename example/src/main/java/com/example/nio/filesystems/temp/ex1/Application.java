@@ -1,11 +1,8 @@
-package com.example.nio.filesystems.temp;
+package com.example.nio.filesystems.temp.ex1;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.FileStore;
-import java.nio.file.FileSystems;
-import java.nio.file.Files;
-import java.nio.file.Path;
+import java.nio.file.*;
 
 public class Application {
 
@@ -20,7 +17,6 @@ public class Application {
     try {
       Path tempFile = Files.createTempFile("myapp", ".appext");  // C:\Users\???\AppData\Local\Temp\myapp1797805585146820741.appext
       System.out.println("Temporary file path = " + tempFile.toAbsolutePath());
-
     } catch(IOException e) {
       System.out.println(e.getMessage());
     }
