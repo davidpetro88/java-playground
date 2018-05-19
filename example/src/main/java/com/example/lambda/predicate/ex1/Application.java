@@ -1,4 +1,4 @@
-package com.example.lambda.predicate;
+package com.example.lambda.predicate.ex1;
 
 import java.util.ArrayList;
 import java.util.List;

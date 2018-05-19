@@ -1,5 +1,4 @@
-package com.example.lambda.predicate;
-
+package com.example.lambda.function;
 
 public class Employee {
     private String name;
