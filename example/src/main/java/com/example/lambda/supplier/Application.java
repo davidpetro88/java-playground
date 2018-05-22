@@ -16,5 +16,10 @@ public class Application {
     for (int i = 0; i < 3; i++) {
       System.out.println(randomSupplier.get());
     }
+
+    System.out.println("\n String Supplier");
+    Supplier<String> iLoveJava = () -> "I love Java!";
+    String supplierResult = iLoveJava.get();
+    System.out.println(supplierResult);
   }
 }
