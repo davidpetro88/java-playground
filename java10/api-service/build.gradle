@@ -1,0 +1,51 @@
+buildscript {
+    ext {
+        springBootVersion = '2.0.2.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+
+    }
+}
+
+
+plugins {
+    id "org.springframework.boot" version "2.0.2.RELEASE"
+    id 'java-library'
+    id 'java'
+    id 'org.gradle.java.experimental-jigsaw' version '0.1.1'
+}
+
+
+dependencies {
+    compile project(':contract')
+    compile project(':impl')
+}
+
+allprojects {
+
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+    apply plugin: 'idea'
+    apply plugin: 'io.spring.dependency-management'
+
+    group = 'com.api'
+    version = '0.0.1-SNAPSHOT'
+    sourceCompatibility = 10
+    targetCompatibility = 10
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        compile("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
+        compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
+        compile('javax.xml.bind:jaxb-api:2.3.0')
+        testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
+    }
+}

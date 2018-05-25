@@ -1,0 +1,8 @@
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-data-mongodb:2.0.2.RELEASE") {
+        exclude group: 'org.mongodb', module: 'bson'
+        exclude group: 'org.mongodb', module: 'mongodb-driver-core'
+        exclude group: 'org.mongodb', module: 'mongodb-driver'
+    }
+    compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.4.2'
+}
