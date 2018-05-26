@@ -1,3 +1,6 @@
+apply plugin: "org.gradle.java.experimental-jigsaw"
+
+javaModule.name='contract'
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-data-mongodb:2.0.2.RELEASE") {
         exclude group: 'org.mongodb', module: 'bson'
