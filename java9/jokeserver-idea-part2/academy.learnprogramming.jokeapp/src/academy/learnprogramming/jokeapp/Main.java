@@ -6,7 +6,6 @@ import java.util.LinkedHashMap;
 import java.util.Scanner;
 import java.util.ServiceLoader;
 
-
 public class Main {
 
     public static void main(String[] args) {
@@ -14,8 +13,8 @@ public class Main {
         ServiceLoader<JokeServer> loader = ServiceLoader.load(JokeServer.class);
         LinkedHashMap<String, JokeServer> servers = new LinkedHashMap<>();
 
-        int key = 0;
-        for (JokeServer s: loader){
+        int key = 1;
+        for (JokeServer s: loader) {
             servers.put(String.valueOf(key), s);
             key++;
         }

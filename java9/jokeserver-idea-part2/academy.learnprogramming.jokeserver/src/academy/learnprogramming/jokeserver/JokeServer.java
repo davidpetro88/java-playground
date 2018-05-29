@@ -5,3 +5,4 @@ public interface JokeServer {
     String getJoke();
     String name();
 }
+
