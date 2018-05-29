@@ -1,15 +1,13 @@
-
-
 package academy.learnprogramming.jokeserver;
 
-import academy.learnprogramming.jokeserver.internal.Filter;
-
+import java.util.logging.*;
 import java.util.List;
+import academy.learnprogramming.jokeserver.internal.Filter;
 
 public class JokeServer {
 
     List<String> jokes = List.of(
-           "Some people, when confronted with a problem, think, 'I know, I'll use threads' - and then two they hav erpoblesms.",
+             "Some people, when confronted with a problem, think, 'I know, I'll use threads' - and then two they hav erpoblesms.",
             "Why do programmers always mix up Halloween and Christmas?\nBecause Oct 31 equals Dec 25.",
             "There are only 10 kinds of people in this world: those who know binary and those who don't.",
             "Have you heard about the new Cray super computer?  It's so fast, it executes an infinite loop in 6 seconds.",
