@@ -1,0 +1,2 @@
+JAVA_VERSION="9.0.4"
+MODULES="java.base java.xml java.prefs java.datatransfer java.desktop javafx.base jdk.jsobject javafx.graphics java.logging java.sql academy.learnprogramming.jokeserver academy.learnprogramming.jokeserver.programmer java.scripting javafx.controls javafx.fxml academy.learnprogramming.jokeapp.ui academy.learnprogramming.jokeserver.kid"
