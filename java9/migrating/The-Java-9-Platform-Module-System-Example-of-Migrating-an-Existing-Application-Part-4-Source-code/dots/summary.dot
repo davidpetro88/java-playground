@@ -1,0 +1,9 @@
+digraph "summary" {
+  "models"                                           -> "gson";
+  "models"                                           -> "java.base (java.base)";
+  "main"                                             -> "gson";
+  "main"                                             -> "java.base (java.base)";
+  "main"                                             -> "models";
+  "gson"                                             -> "java.base (java.base)";
+  "gson"                                             -> "java.sql (java.sql)";
+}

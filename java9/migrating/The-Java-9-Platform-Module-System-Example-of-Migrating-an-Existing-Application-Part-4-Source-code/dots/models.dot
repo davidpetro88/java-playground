@@ -1,0 +1,7 @@
+digraph "models" {
+    // Path: /Users/davidpetro/Documents/courses/java/java-playground/java9/The-Java-9-Platform-Module-System-Example-of-Migrating-an-Existing-Application-Part-4-Source-code/mods/models.jar
+   "academy.learnprogramming.models"                  -> "academy.learnprogramming.models (models)";
+   "academy.learnprogramming.models"                  -> "com.google.gson.annotations (gson)";
+   "academy.learnprogramming.models"                  -> "java.lang (java.base)";
+   "academy.learnprogramming.models"                  -> "java.util (java.base)";
+}

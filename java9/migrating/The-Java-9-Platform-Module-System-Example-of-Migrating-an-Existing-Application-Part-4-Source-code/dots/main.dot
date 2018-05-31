@@ -1,0 +1,8 @@
+digraph "main" {
+    // Path: /Users/davidpetro/Documents/courses/java/java-playground/java9/The-Java-9-Platform-Module-System-Example-of-Migrating-an-Existing-Application-Part-4-Source-code/mods/main.jar
+   "academy.learnprogramming.main"                    -> "academy.learnprogramming.models (models)";
+   "academy.learnprogramming.main"                    -> "com.google.gson (gson)";
+   "academy.learnprogramming.main"                    -> "java.io (java.base)";
+   "academy.learnprogramming.main"                    -> "java.lang (java.base)";
+   "academy.learnprogramming.main"                    -> "java.util (java.base)";
+}
