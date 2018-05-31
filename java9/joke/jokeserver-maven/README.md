@@ -1,6 +1,6 @@
 # JokeServer-Maven
 
-Projeto JokeServer reorganizado com maven.
+Project JokeServer reorganized with maven.
 
 - Project reorganize
 ![](image.png)
