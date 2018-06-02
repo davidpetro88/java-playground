@@ -1,4 +1,4 @@
-package http2.example;
+package http2.example.sync.get.ex1;
 
 import jdk.incubator.http.HttpClient;
 import jdk.incubator.http.HttpRequest;
@@ -20,7 +20,7 @@ public class Application {
 
         System.out.println("Headers ...");
         Map<String, List<String>> map = response.headers().map();
-        map.forEach((k,v) -> System.out.println(k + " : " + v));
+        map.forEach((k, v) -> System.out.println(k + " : " + v));
 
         System.out.println("\n Body ...");
         System.out.println(response.body());
