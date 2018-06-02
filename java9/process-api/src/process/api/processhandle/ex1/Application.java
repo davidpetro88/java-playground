@@ -1,15 +1,24 @@
 package process.api.processhandle.ex1;
 
-import java.io.IOException;
-
 public class Application {
 
-    public static void main(String[] args) throws IOException, InterruptedException {
-        ProcessBuilder pb = new ProcessBuilder("java", "-jar", "process.jar", "My Favorite App");
-        Process start = pb.start();
+    public static void main(String[] args) {
+        ProcessHandle phCurrent = ProcessHandle.current();
 
-        Thread.sleep(10000L);
-        //destroy
-        start.destroy();
+        System.out.println(" Current PID: " + phCurrent.pid());
+
+        System.out.println("\n Get snapshot of the process info");
+        System.out.println(phCurrent.info());
+
+        System.out.println("\n Get user: " + phCurrent.info().user().get());
+
+        System.out.println("\n Get command: " + phCurrent.info().command().get());
+
+        System.out.println("\n Get command line: " + phCurrent.info().commandLine().get());
+
+        System.out.println("\n Get arguments: ");
+        for (int i = 0; i < phCurrent.info().arguments().get().length; i++) {
+            System.out.println(phCurrent.info().arguments().get()[i]);
+        }
     }
 }
