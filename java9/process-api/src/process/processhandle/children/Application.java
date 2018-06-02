@@ -1,12 +1,14 @@
-package process.api.processhandle.ex2;
+package process.processhandle.children;
 
 import java.util.Optional;
+import java.util.stream.Stream;
 
 public class Application {
 
     public static void main(String[] args) {
         ProcessHandle phCurrent = ProcessHandle.current();
-        dumpProcessInfo(phCurrent);
+        Stream<ProcessHandle> children = phCurrent.children();
+        children.forEach(ph -> dumpProcessInfo(ph));
     }
 
     public static void dumpProcessInfo(ProcessHandle ph) {

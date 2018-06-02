@@ -1,4 +1,4 @@
-package process.api.processhandle.ex1;
+package process.processhandle.current.ex1;
 
 public class Application {
 
