@@ -28,3 +28,4 @@ nbdist/
 /out/
 
 application.pid
+.DS_Store
