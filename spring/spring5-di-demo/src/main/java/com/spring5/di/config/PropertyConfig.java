@@ -17,11 +17,18 @@ public class PropertyConfig {
     @Value("${other.message}")
     private String otherMessage;
 
+    @Value("${user.client.username}")
+    private String userName;
+
     public String getMyMessage() {
         return myMessage;
     }
 
     public String getOtherMessage() {
         return otherMessage;
+    }
+
+    public String getUserName() {
+        return userName;
     }
 }

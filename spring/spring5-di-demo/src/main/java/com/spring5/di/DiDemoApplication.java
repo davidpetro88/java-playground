@@ -29,6 +29,6 @@ public class DiDemoApplication {
         PropertyConfig propertyConfig = (PropertyConfig) ctx.getBean("propertyConfig");
         System.out.println(propertyConfig.getMyMessage());
         System.out.println(propertyConfig.getOtherMessage());
-
+        System.out.println(propertyConfig.getUserName());
     }
 }

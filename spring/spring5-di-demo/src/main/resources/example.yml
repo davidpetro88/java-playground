@@ -1,0 +1,37 @@
+# this is the comment
+
+name: David
+
+names : #Comment
+    - David
+    - John
+    - Tim
+
+pund_sing: "#
+
+
+book:
+  author: John
+  publisher: ABC
+
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no #No, false, FALSE
+
+string_val: "This is it's quote"
+
+colon_string: "my coureses: one two three"
+
+include_new_lines: |
+  asdf asdf asdf
+  asdf adfewf asdf
+  asdf ae adfre
+
+ignore_new_lines: >
+  this is
+  just one long
+  string

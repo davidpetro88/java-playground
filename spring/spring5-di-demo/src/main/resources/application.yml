@@ -1,0 +1,7 @@
+user:
+  client:
+    username: Test Username
+    password: somepass
+    url: SomeUrl
+
+
