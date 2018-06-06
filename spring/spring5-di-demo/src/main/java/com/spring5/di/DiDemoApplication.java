@@ -27,7 +27,8 @@ public class DiDemoApplication {
         System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
 
         PropertyConfig propertyConfig = (PropertyConfig) ctx.getBean("propertyConfig");
-        System.out.println(propertyConfig.getMessageFromOtherPropertie());
+        System.out.println(propertyConfig.getMyMessage());
+        System.out.println(propertyConfig.getOtherMessage());
 
     }
 }

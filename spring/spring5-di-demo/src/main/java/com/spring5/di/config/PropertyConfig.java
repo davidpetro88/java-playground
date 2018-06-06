@@ -7,13 +7,21 @@ import org.springframework.context.annotation.PropertySources;
 
 @Configuration
 @PropertySources({
-        @PropertySource("classpath:other.properties")
+        @PropertySource("classpath:other.properties"),
+        @PropertySource("classpath:my.properties")
 })
 public class PropertyConfig {
-    @Value("${message.other}")
-    private String messageFromOtherPropertie;
+    @Value("${my.message}")
+    private String myMessage;
 
-    public String getMessageFromOtherPropertie() {
-        return messageFromOtherPropertie;
+    @Value("${other.message}")
+    private String otherMessage;
+
+    public String getMyMessage() {
+        return myMessage;
+    }
+
+    public String getOtherMessage() {
+        return otherMessage;
     }
 }
