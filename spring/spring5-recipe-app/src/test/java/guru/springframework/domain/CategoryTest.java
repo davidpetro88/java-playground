@@ -3,7 +3,7 @@ package guru.springframework.domain;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class CategoryTest {
 
@@ -30,4 +30,5 @@ public class CategoryTest {
     @Test
     public void getRecipes() throws Exception {
     }
+
 }
