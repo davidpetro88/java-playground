@@ -4,6 +4,17 @@
 
 ![](image.png)
 
+
+* Dashboard Hystrix http://localhost:8500/hystrix.html
+- put in the input http://localhost:8500/hystrix.stream
+
+![](image2.png)
+
+![](image3.png)
+
+
+
+
 * Get http://localhost:8500/rooms
 
 ```
