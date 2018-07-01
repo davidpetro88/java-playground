@@ -1,1 +1,0 @@
-# Spring Rest Client Examples
