@@ -1,0 +1,17 @@
+---
+spring:
+  application:
+    name: lucky-word-client
+  cloud:
+    config:
+      uri: http://localhost:8001
+server:
+  port: 8002
+
+---
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: 123456

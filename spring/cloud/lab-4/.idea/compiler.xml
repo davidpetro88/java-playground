@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lab-4-config-server" />
+        <module name="lab-4-eureka-server-solution" />
+        <module name="lab-4-sentence-server-solution" />
+        <module name="lab-4-word-server-solution" />
+        <module name="maven-archiver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lab-4-sentence-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
