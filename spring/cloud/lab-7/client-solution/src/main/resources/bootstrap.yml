@@ -10,9 +10,10 @@ spring:
 server:
   port: 8002
 
-
-
-#  spring:
-#    cloud:
-#      config:
-#       uri: https://user:secret@myconfig.mycompany.com
+---
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: 123456

@@ -8,3 +8,23 @@ spring:
           searchPaths: ConfigData
 server:
   port: 8001
+
+# For simplicity, disable security when posting to bus/refresh:
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: refresh
+
+---
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: 123456
