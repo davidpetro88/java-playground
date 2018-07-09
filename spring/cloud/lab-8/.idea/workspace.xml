@@ -17,32 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZuulLoggingFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/lab8/netflix/zuul/api/gateway/server/ZuulLoggingFilter.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netflix-eureka-naming-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetflixZuulApiGatewayServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/lab8/netflix/zuul/api/gateway/server/NetflixZuulApiGatewayServerApplication.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="15" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -77,13 +74,18 @@
       <list>
         <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/limits-service/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/currency-conversion-service/pom.xml" />
         <option value="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/in28minutes/microservices/currencyexchangeservice/CurrencyExchangeController.java" />
         <option value="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/in28minutes/microservices/currencyconversionservice/CurrencyExchangeServiceProxy.java" />
         <option value="$PROJECT_DIR$/currency-conversion-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/in28minutes/microservices/netflixzuulapigatewayserver/ZuulLoggingFilter.java" />
-        <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/currency-conversion-service/pom.xml" />
+        <option value="$PROJECT_DIR$/currency-exchange-service/pom.xml" />
+        <option value="$PROJECT_DIR$/limits-service/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix-eureka-naming-server/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" />
       </list>
     </option>
   </component>
@@ -139,83 +141,23 @@
             </path>
             <path>
               <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
+              <item name="currency-exchange-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="limits-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netflix-eureka-naming-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
               <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab-8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,6 +178,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/currency-conversion-service" />
+      <recent name="$PROJECT_DIR$/currency-exchange-service" />
+      <recent name="$PROJECT_DIR$/limits-service" />
+      <recent name="$PROJECT_DIR$/netflix-eureka-naming-server" />
+      <recent name="$PROJECT_DIR$/netflix-zuul-api-gateway-server" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -335,12 +286,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531077216948</updated>
       <workItem from="1531077219012" duration="2737000" />
-      <workItem from="1531082521088" duration="7523000" />
+      <workItem from="1531082521088" duration="7893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10260000" />
+    <option name="totallyTimeSpent" value="10630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="0" />
@@ -546,13 +497,6 @@
     <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/currency-exchange-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/currency-conversion-service/src/main/java/com/lab8/currency/conversion/service/CurrencyConversionController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -604,31 +548,10 @@
     <entry file="file://$PROJECT_DIR$/netflix-eureka-naming-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/limits-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="29" selection-start-line="29" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/currency-exchange-service/src/test/java/com/lab8/currency/exchange/service/CurrencyExchangeServiceApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/currency-conversion-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -653,6 +576,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netflix-eureka-naming-server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/limits-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-exchange-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-conversion-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-conversion-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -660,6 +615,41 @@
             <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="15" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/limits-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency-exchange-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netflix-eureka-naming-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
