@@ -4,15 +4,16 @@ spring:
     name: lucky-word-client
   cloud:
     config:
-      uri: http://admin:123456@localhost:8001
+      uri: http://admin:abcdefghijklmnopqrstuvwxyz@localhost:8001
 #      username: user
 #      password: secret
 server:
   port: 8002
 
-
-
-#  spring:
-#    cloud:
-#      config:
-#       uri: https://user:secret@myconfig.mycompany.com
+---
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: 123456
