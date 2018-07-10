@@ -4,7 +4,8 @@
 
 ### rabbitmq
 ```
-docker run -d --hostname localhost --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+docker stop rabbitmq|| true && docker rm rabbitmq || true && docker run -d --hostname localhost --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+
 ```
 
 

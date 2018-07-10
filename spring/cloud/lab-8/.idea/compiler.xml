@@ -13,6 +13,7 @@
         <module name="netflix-eureka-naming-server" />
         <module name="netflix-zuul-api-gateway-server" />
         <module name="spring-cloud-config-server" />
+        <module name="zipkin-server" />
       </profile>
     </annotationProcessing>
   </component>

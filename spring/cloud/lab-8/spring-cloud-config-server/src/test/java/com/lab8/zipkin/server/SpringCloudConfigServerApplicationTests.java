@@ -1,4 +1,4 @@
-package com.lab8.spring.cloud.config.server;
+package com.lab8.zipkin.server;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
