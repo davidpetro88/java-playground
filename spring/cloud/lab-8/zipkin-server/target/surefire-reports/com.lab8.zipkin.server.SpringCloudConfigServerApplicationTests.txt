@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.lab8.zipkin.server.SpringCloudConfigServerApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.286 s <<< FAILURE! - in com.lab8.zipkin.server.SpringCloudConfigServerApplicationTests
-contextLoads(com.lab8.zipkin.server.SpringCloudConfigServerApplicationTests)  Time elapsed: 0.011 s  <<< ERROR!
-java.lang.NoSuchMethodError: org.springframework.boot.builder.SpringApplicationBuilder.<init>([Ljava/lang/Object;)V
-

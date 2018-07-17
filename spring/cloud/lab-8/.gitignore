@@ -81,4 +81,4 @@ nb-configuration.xml
 !gradle-wrapper.jar
 
 
-!ojdbc6.jar
+!zipkin.jar

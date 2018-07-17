@@ -1,0 +1,101 @@
+Users\Training\Desktop\Courses\Spring Cloud\Lessons\0900\0905 Custom Zuul Filters\Custom Zuul Filters
+   │
+   ├[spring-microservices-simple-service-3]
+   │   │
+   │   ├[.mvn]
+   │   │   │
+   │   │   └[wrapper]
+   │   │       │
+   │   │       ├maven-wrapper
+   │   │       └maven-wrapper
+   │   ├[.settings]
+   │   │   │
+   │   │   ├org.eclipse.core.resources
+   │   │   ├org.eclipse.jdt.core
+   │   │   ├org.eclipse.m2e.core
+   │   │   └org.eclipse.wst.common.project.facet.core
+   │   ├[src]
+   │   │   │
+   │   │   ├[main]
+   │   │   │   │
+   │   │   │   ├[java]
+   │   │   │   │   │
+   │   │   │   │   └[com]
+   │   │   │   │       │
+   │   │   │   │       └[oreilly]
+   │   │   │   │           │
+   │   │   │   │           └[cloud]
+   │   │   │   │               │
+   │   │   │   │               └SpringMicroservicesSimpleService3Application
+   │   │   │   └[resources]
+   │   │   │       │
+   │   │   │       ├[static]
+   │   │   │       ├[templates]
+   │   │   │       └application
+   │   │   └[test]
+   │   │       │
+   │   │       └[java]
+   │   │           │
+   │   │           └[com]
+   │   │               │
+   │   │               └[oreilly]
+   │   │                   │
+   │   │                   └[cloud]
+   │   │                       │
+   │   │                       └SpringMicroservicesSimpleService3ApplicationTests
+   │   ├
+   │   ├
+   │   ├
+   │   ├mvnw
+   │   ├mvnw
+   │   └pom
+   └[spring-microservices-zuul]
+       │
+       ├[.mvn]
+       │   │
+       │   └[wrapper]
+       │       │
+       │       ├maven-wrapper
+       │       └maven-wrapper
+       ├[.settings]
+       │   │
+       │   ├org.eclipse.core.resources
+       │   ├org.eclipse.jdt.core
+       │   ├org.eclipse.m2e.core
+       │   └org.eclipse.wst.common.project.facet.core
+       ├[src]
+       │   │
+       │   ├[main]
+       │   │   │
+       │   │   ├[java]
+       │   │   │   │
+       │   │   │   └[com]
+       │   │   │       │
+       │   │   │       └[oreilly]
+       │   │   │           │
+       │   │   │           └[cloud]
+       │   │   │               │
+       │   │   │               ├MyZuulFilter
+       │   │   │               └SpringMicroservicesZuulApplication
+       │   │   └[resources]
+       │   │       │
+       │   │       ├[static]
+       │   │       ├[templates]
+       │   │       └application
+       │   └[test]
+       │       │
+       │       └[java]
+       │           │
+       │           └[com]
+       │               │
+       │               └[oreilly]
+       │                   │
+       │                   └[cloud]
+       │                       │
+       │                       └SpringMicroservicesZuulApplicationTests
+       ├
+       ├
+       ├
+       ├mvnw
+       ├mvnw
+       └pom

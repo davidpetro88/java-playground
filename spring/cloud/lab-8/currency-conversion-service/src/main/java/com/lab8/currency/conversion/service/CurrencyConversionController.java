@@ -19,7 +19,7 @@ public class CurrencyConversionController {
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	@Autowired
-	private CurrencyExchangeServiceProxy proxy;
+	private CurrencyExchangeServiceProxy currencyExchangeServiceProxy;
 
 	@GetMapping("/currency-converter/from/{from}/to/{to}/quantity/{quantity}")
 	public CurrencyConversionBean convertCurrency(@PathVariable String from, @PathVariable String to,
@@ -44,7 +44,7 @@ public class CurrencyConversionController {
 	public CurrencyConversionBean convertCurrencyFeign(@PathVariable String from, @PathVariable String to,
 			@PathVariable BigDecimal quantity) {
 
-		CurrencyConversionBean response = proxy.retrieveExchangeValue(from, to);
+		CurrencyConversionBean response = currencyExchangeServiceProxy.retrieveExchangeValue(from, to);
 
 		logger.info("{}", response);
 		

@@ -1,0 +1,152 @@
+Users\Training\Desktop\Courses\Spring Cloud\Lessons\1000\1010 Standalone Resource Server\Standalone Resource Server
+   │
+   ├[spring-microservices-oauth-client]
+   │   │
+   │   ├[.mvn]
+   │   │   │
+   │   │   └[wrapper]
+   │   │       │
+   │   │       ├maven-wrapper
+   │   │       └maven-wrapper
+   │   ├[.settings]
+   │   │   │
+   │   │   ├org.eclipse.core.resources
+   │   │   ├org.eclipse.jdt.core
+   │   │   ├org.eclipse.m2e.core
+   │   │   └org.eclipse.wst.common.project.facet.core
+   │   ├[src]
+   │   │   │
+   │   │   ├[main]
+   │   │   │   │
+   │   │   │   ├[java]
+   │   │   │   │   │
+   │   │   │   │   └[com]
+   │   │   │   │       │
+   │   │   │   │       └[oreilly]
+   │   │   │   │           │
+   │   │   │   │           └[cloud]
+   │   │   │   │               │
+   │   │   │   │               ├SpringMicroservicesOauthClientApplication
+   │   │   │   │               └WebSecurityConfig
+   │   │   │   └[resources]
+   │   │   │       │
+   │   │   │       ├[static]
+   │   │   │       ├[templates]
+   │   │   │       └application
+   │   │   └[test]
+   │   │       │
+   │   │       └[java]
+   │   │           │
+   │   │           └[com]
+   │   │               │
+   │   │               └[oreilly]
+   │   │                   │
+   │   │                   └[cloud]
+   │   │                       │
+   │   │                       └SpringMicroservicesOauthClientApplicationTests
+   │   ├
+   │   ├
+   │   ├
+   │   ├mvnw
+   │   ├mvnw
+   │   └pom
+   ├[spring-microservices-oauth-resource]
+   │   │
+   │   ├[.mvn]
+   │   │   │
+   │   │   └[wrapper]
+   │   │       │
+   │   │       ├maven-wrapper
+   │   │       └maven-wrapper
+   │   ├[.settings]
+   │   │   │
+   │   │   ├org.eclipse.core.resources
+   │   │   ├org.eclipse.jdt.core
+   │   │   ├org.eclipse.m2e.core
+   │   │   └org.eclipse.wst.common.project.facet.core
+   │   ├[src]
+   │   │   │
+   │   │   ├[main]
+   │   │   │   │
+   │   │   │   ├[java]
+   │   │   │   │   │
+   │   │   │   │   └[com]
+   │   │   │   │       │
+   │   │   │   │       └[oreilly]
+   │   │   │   │           │
+   │   │   │   │           └[cloud]
+   │   │   │   │               │
+   │   │   │   │               ├SpringMicroservicesOauthResourceApplication
+   │   │   │   │               └WebSecurityConfig
+   │   │   │   └[resources]
+   │   │   │       │
+   │   │   │       ├[static]
+   │   │   │       ├[templates]
+   │   │   │       └application
+   │   │   └[test]
+   │   │       │
+   │   │       └[java]
+   │   │           │
+   │   │           └[com]
+   │   │               │
+   │   │               └[oreilly]
+   │   │                   │
+   │   │                   └[cloud]
+   │   │                       │
+   │   │                       └SpringMicroservicesOauthResourceApplicationTests
+   │   ├
+   │   ├
+   │   ├
+   │   ├mvnw
+   │   ├mvnw
+   │   └pom
+   └[spring-microservices-oauth-server]
+       │
+       ├[.mvn]
+       │   │
+       │   └[wrapper]
+       │       │
+       │       ├maven-wrapper
+       │       └maven-wrapper
+       ├[.settings]
+       │   │
+       │   ├org.eclipse.core.resources
+       │   ├org.eclipse.jdt.core
+       │   ├org.eclipse.m2e.core
+       │   └org.eclipse.wst.common.project.facet.core
+       ├[src]
+       │   │
+       │   ├[main]
+       │   │   │
+       │   │   ├[java]
+       │   │   │   │
+       │   │   │   └[com]
+       │   │   │       │
+       │   │   │       └[oreilly]
+       │   │   │           │
+       │   │   │           └[cloud]
+       │   │   │               │
+       │   │   │               ├AuthorizationServerConfig
+       │   │   │               ├SpringMicroservicesOauthServerApplication
+       │   │   │               └WebSecurityConfig
+       │   │   └[resources]
+       │   │       │
+       │   │       ├application
+       │   │       └schema
+       │   └[test]
+       │       │
+       │       └[java]
+       │           │
+       │           └[com]
+       │               │
+       │               └[oreilly]
+       │                   │
+       │                   └[cloud]
+       │                       │
+       │                       └SpringMicroservicesOauthServerApplicationTests
+       ├
+       ├
+       ├
+       ├mvnw
+       ├mvnw
+       └pom

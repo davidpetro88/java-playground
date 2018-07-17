@@ -11,8 +11,14 @@ docker stop rabbitmq|| true && docker rm rabbitmq || true && docker run -d --hos
 
 ### zipkin
 ```
-docker run -d -p 9411:9411 -e RABBIT_URI=amqp://localhost openzipkin/zipkin
+RABBIT_ADDRESSES=localhost java -jar zipkin.jar
 ```
+![](image.png)
+
+![](image2.png)
+
+![](image3.png)
+
 
 
 ## Ports
