@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-fastpass-console/target/classes/META-INF/maven/pluralsight.demo/pluralsight-eureka-fastpass-console/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-fastpass-console/target/classes/META-INF/maven/pluralsight.demo/pluralsight-eureka-fastpass-console/pom.properties" />
+        <option value="$PROJECT_DIR$/eureka-fastpass-console/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-fastpass-service/target/classes/META-INF/maven/pluralsight.demo/pluralsight-eureka-fastpass-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-fastpass-service/target/classes/META-INF/maven/pluralsight.demo/pluralsight-eureka-fastpass-service/pom.properties" />
+        <option value="$PROJECT_DIR$/eureka-fastpass-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-tollrate-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-tollrate-billboard/target/classes/META-INF/maven/pluralsight.demo/pluralsight-eureka-tollrate-billboard/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-tollrate-billboard/target/classes/META-INF/maven/pluralsight.demo/pluralsight-eureka-tollrate-billboard/pom.properties" />
+        <option value="$PROJECT_DIR$/eureka-tollrate-billboard/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/target/classes/META-INF/maven/pluralsight.demo/pluralsight-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/target/classes/META-INF/maven/pluralsight.demo/pluralsight-hystrix-dashboard/pom.properties" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-turbine/target/classes/META-INF/maven/pluralsight.demo/pluralsight-hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-turbine/target/classes/META-INF/maven/pluralsight.demo/pluralsight-hystrix-turbine/pom.properties" />
+        <option value="$PROJECT_DIR$/hystrix-turbine/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-fastpass-console" />
+        <module name="eureka-fastpass-service" />
+        <module name="eureka-server" />
+        <module name="eureka-tollrate-billboard" />
+        <module name="eureka-tollrate-service" />
+        <module name="hystrix-dashboard" />
+        <module name="hystrix-turbine" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="pluralsight-eureka-fastpass-console (1)" target="1.5" />
+      <module name="pluralsight-eureka-fastpass-console (2) (pluralsight.demo)" target="1.8" />
+      <module name="pluralsight-eureka-fastpass-service (1)" target="1.5" />
+      <module name="pluralsight-eureka-fastpass-service (2) (pluralsight.demo)" target="1.8" />
+      <module name="pluralsight-eureka-tollrate-billboard (1)" target="1.5" />
+      <module name="pluralsight-eureka-tollrate-billboard (2) (pluralsight.demo)" target="1.8" />
+      <module name="pluralsight-hystrix-dashboard (1)" target="1.5" />
+      <module name="pluralsight-hystrix-dashboard (2) (pluralsight.demo)" target="1.8" />
+      <module name="pluralsight-hystrix-turbine" target="1.8" />
+      <module name="pluralsight-hystrix-turbine (1)" target="1.5" />
+      <module name="pluralsight-hystrix-turbine (2) (pluralsight.demo)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
