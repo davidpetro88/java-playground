@@ -21,6 +21,12 @@
         <option value="$PROJECT_DIR$/hystrix-turbine/target/classes/META-INF/maven/pluralsight.demo/pluralsight-hystrix-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-turbine/target/classes/META-INF/maven/pluralsight.demo/pluralsight-hystrix-turbine/pom.properties" />
         <option value="$PROJECT_DIR$/hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-fastpass-console-2/target/classes/META-INF/maven/pluralsight.demo/pluralsight-eureka-fastpass-console/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-fastpass-console-2/target/classes/META-INF/maven/pluralsight.demo/pluralsight-eureka-fastpass-console/pom.properties" />
+        <option value="$PROJECT_DIR$/eureka-fastpass-console-2/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-apiproxy/target/classes/META-INF/maven/pluralsight.demo/pluralsight-zuul-apiproxy/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-apiproxy/target/classes/META-INF/maven/pluralsight.demo/pluralsight-zuul-apiproxy/pom.properties" />
+        <option value="$PROJECT_DIR$/zuul-apiproxy/pom.xml" />
       </list>
     </option>
   </component>
