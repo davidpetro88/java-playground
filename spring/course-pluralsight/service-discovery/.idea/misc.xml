@@ -27,6 +27,10 @@
         <option value="$PROJECT_DIR$/zuul-apiproxy/target/classes/META-INF/maven/pluralsight.demo/pluralsight-zuul-apiproxy/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-apiproxy/target/classes/META-INF/maven/pluralsight.demo/pluralsight-zuul-apiproxy/pom.properties" />
         <option value="$PROJECT_DIR$/zuul-apiproxy/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-tollintake/target/classes/META-INF/maven/pluralsight.demo/pluralsight-stream-tollintake/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-tollintake/target/classes/META-INF/maven/pluralsight.demo/pluralsight-stream-tollintake/pom.properties" />
+        <option value="$PROJECT_DIR$/stream-tollintake/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/stream-tollintake/pom.xml" />
       </list>
     </option>
   </component>

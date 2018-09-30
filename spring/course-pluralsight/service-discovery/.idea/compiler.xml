@@ -15,10 +15,12 @@
         <module name="eureka-tollrate-service" />
         <module name="hystrix-dashboard" />
         <module name="hystrix-turbine" />
+        <module name="stream-tollintake" />
         <module name="zuul-apiproxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="maven-archiver" target="1.5" />
       <module name="pluralsight-eureka-fastpass-console (1)" target="1.5" />
       <module name="pluralsight-eureka-fastpass-console (2) (pluralsight.demo)" target="1.8" />
       <module name="pluralsight-eureka-fastpass-service (1)" target="1.5" />
@@ -30,6 +32,8 @@
       <module name="pluralsight-hystrix-turbine" target="1.8" />
       <module name="pluralsight-hystrix-turbine (1)" target="1.5" />
       <module name="pluralsight-hystrix-turbine (2) (pluralsight.demo)" target="1.8" />
+      <module name="pluralsight-stream-tollintake (1)" target="1.5" />
+      <module name="pluralsight-stream-tollintake (2) (pluralsight.demo)" target="1.8" />
       <module name="pluralsight-zuul-apiproxy (1)" target="1.5" />
       <module name="pluralsight-zuul-apiproxy (2) (pluralsight.demo)" target="1.8" />
     </bytecodeTargetLevel>

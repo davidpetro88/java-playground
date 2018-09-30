@@ -1,0 +1,6 @@
+projectKey=com.forttiori.api:com.forttiori.api
+serverUrl=http://localhost:9000
+serverVersion=7.1.0.11001
+dashboardUrl=http://localhost:9000/dashboard/index/com.forttiori.api:com.forttiori.api
+ceTaskId=AWYsfLb-8pL7sdvCU6mN
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWYsfLb-8pL7sdvCU6mN
