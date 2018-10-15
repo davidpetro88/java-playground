@@ -18,9 +18,14 @@
         <module name="stream-tollintake" />
         <module name="zuul-apiproxy" />
       </profile>
+      <profile name="Annotation profile for Unknown" enabled="true">
+        <sourceOutputDir name="../generated-sources/annotations" />
+        <sourceTestOutputDir name="../generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maven-archiver" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="maven-archiver" target="1.5" />
       <module name="pluralsight-eureka-fastpass-console (1)" target="1.5" />
       <module name="pluralsight-eureka-fastpass-console (2) (pluralsight.demo)" target="1.8" />
       <module name="pluralsight-eureka-fastpass-service (1)" target="1.5" />

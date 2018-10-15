@@ -1,0 +1,21 @@
+// dataflow 1.2.0.RELEASE log opened at 2018-10-14 21:09:20
+app list
+app import --uri http://bit.ly/Celsius-SR3-stream-applications-rabbit-maven
+app list
+stream create --definition "http --port=8087 | file --directory=/out --suffix=txt --name=output"--name firstExample-Hello
+clear
+clear
+stream list
+stream deploy firstExample-Hello
+stream destroy firstExample-Hello
+clear
+// dataflow 1.2.0.RELEASE log opened at 2018-10-14 21:51:16
+stream create --definition "http --port=8087 | file --directory=/Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/spring-cloud-dataflow/out --suffix=txt --name=output"--name firstExample-Hello
+stream deploy firstExample-Hello
+stream list
+clear
+// [failed] stream create --definition "file --directory=/Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/spring-cloud-dataflow/input --mode=lines | transform --expression=payload+ ' | processed=true'| output: file --directory=/Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/spring-cloud-dataflow/out --suffix=txt --name=output2" --name fileStream1
+// [failed] stream create --definition "file --directory=/Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/spring-cloud-dataflow/input --mode=lines | transform --expression=payload+ ' | procesed=true'| output: file --directory=/Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/spring-cloud-dataflow/out --suffix=txt --nome=output2"--name filestream1
+stream create --definition "file --directory=/Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/spring-cloud-dataflow/input --mode=lines | transform --expression=payload+' | procesed=true'| output: file --directory=/Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/spring-cloud-dataflow/out --suffix=txt --nome=output2"--name filestream1
+clear
+stream deploy filestream1

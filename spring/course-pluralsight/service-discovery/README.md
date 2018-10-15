@@ -37,3 +37,8 @@ GET http://localhost:8085/hystrix
 Ip From turbine http://localhost:8989
 
 ![](image6.png)
+
+
+
+java -jar stream-tollintake/target/stream-tollintake-0.0.1-SNAPSHOT.jar --spring.cloud.steam.instanceindex=0
+--spring.cloud.steam.instanceindex=1
