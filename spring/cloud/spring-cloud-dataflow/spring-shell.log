@@ -19,3 +19,8 @@ clear
 stream create --definition "file --directory=/Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/spring-cloud-dataflow/input --mode=lines | transform --expression=payload+' | procesed=true'| output: file --directory=/Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/spring-cloud-dataflow/out --suffix=txt --nome=output2"--name filestream1
 clear
 stream deploy filestream1
+// dataflow 1.2.0.RELEASE log opened at 2018-10-15 21:59:05
+app list
+clear
+app import --uri http://bit.ly/Clark-GA-task-applications-maven
+app list

@@ -1,10 +1,13 @@
 #
 
 ### Run databases
+
+```
 docker run -d --hostname local-rabbit --name spring-cloud-coordinating-rmq -p 15672:15672 -p 5672:5672 rabbitmq:3.6.9-management
+
 docker run --name spring-cloud-coordinating-mysql  -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=scdf -d mysql:latest
 docker run --name spring-cloud-coordinating-redis  -p 6379:6379 -d redis
-
+```
 
 ### Start Server
 ```
@@ -72,4 +75,45 @@ station:100 | customer:205 | timestamp:2017-07-15T11:46:17 | procesed=true
 station:102 | customer:200 | timestamp:2017-07-15T13:00:25 | procesed=true
 station:100 | customer:255 | timestamp:2017-07-15T13:05:01 | procesed=true
 MacBook-Air-de-David:out davidpetro$
+```
+
+
+### Aps Tasks
+- https://cloud.spring.io/spring-cloud-task-app-starters/
+```
+app import --uri http://bit.ly/Clark-GA-task-applications-maven
+
+app list
+
+╔═══╤══════════════╤═══════════════════════════╤══════════════════════════╤════════════════════╗
+║app│    source    │         processor         │           sink           │        task        ║
+╠═══╪══════════════╪═══════════════════════════╪══════════════════════════╪════════════════════╣
+║   │file          │aggregator                 │aggregate-counter         │composed-task-runner║
+║   │ftp           │bridge                     │cassandra                 │jdbchdfs-local      ║
+║   │gemfire       │filter                     │counter                   │spark-client        ║
+║   │gemfire-cq    │groovy-filter              │field-value-counter       │spark-cluster       ║
+║   │http          │groovy-transform           │file                      │spark-yarn          ║
+║   │jdbc          │header-enricher            │ftp                       │timestamp           ║
+║   │jms           │httpclient                 │gemfire                   │timestamp-batch     ║
+║   │load-generator│pmml                       │gpfdist                   │                    ║
+║   │loggregator   │python-http                │hdfs                      │                    ║
+║   │mail          │python-jython              │hdfs-dataset              │                    ║
+║   │mongodb       │scriptable-transform       │jdbc                      │                    ║
+║   │mqtt          │splitter                   │log                       │                    ║
+║   │rabbit        │tasklaunchrequest-transform│mongodb                   │                    ║
+║   │s3            │tcp-client                 │mqtt                      │                    ║
+║   │sftp          │tensorflow                 │pgcopy                    │                    ║
+║   │syslog        │transform                  │rabbit                    │                    ║
+║   │tcp           │twitter-sentiment          │redis-pubsub              │                    ║
+║   │tcp-client    │                           │router                    │                    ║
+║   │time          │                           │s3                        │                    ║
+║   │trigger       │                           │sftp                      │                    ║
+║   │triggertask   │                           │task-launcher-cloudfoundry│                    ║
+║   │twitterstream │                           │task-launcher-local       │                    ║
+║   │              │                           │task-launcher-yarn        │                    ║
+║   │              │                           │tcp                       │                    ║
+║   │              │                           │throughput                │                    ║
+║   │              │                           │websocket                 │                    ║
+╚═══╧══════════════╧═══════════════════════════╧══════════════════════════╧════════════════════╝
+
 ```
