@@ -53,15 +53,21 @@ stream deploy firstExample-Hello
 ```
 
 - test stream
+
 ![](image5.png)
+
+
 
 ![](image6.png)
 
 ### create stream
+
 ```
 stream create --definition "file --directory=/Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/spring-cloud-dataflow/input --mode=lines | transform --expression=payload+' | procesed=true'| output: file --directory=/Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/spring-cloud-dataflow/out --suffix=txt --nome=output2"--name filestream1
 ```
+
 - stream deploy
+
 ```
 stream deploy filestream1
 ```
@@ -284,16 +290,16 @@ toll-station-counter=:toll-steam.split-JSON > counter --name=toll-count
 ```
 
 - Analytics
-![](imag7.png)
+![](image7.png)
 
-![](imag8.png)
+![](image8.png)
 
 
 ### counter stationid
 
 - create by terminal
 ```
-stream create toll-stationid-counter --definition "toll-stream.split-JSON > field-value-counter --name=counter --field-name=stationid --spring.cloud.stream.bindings.input.contentType='application/json'"
+stream create toll-stationid-counter --definition ":toll-stream.split-JSON > field-value-counter --name=counter --field-name=stationid --spring.cloud.stream.bindings.input.contentType='application/json'"
 
 stream deploy toll-stationid-counter
 
@@ -305,6 +311,6 @@ toll-stationid-counter=:toll-stream.split-JSON > field-value-counter --name=coun
 ```
 
 - Analytics
-![](imag9.png)
+![](image9.png)
 
-![](imag10.png)
+![](image10.png)
