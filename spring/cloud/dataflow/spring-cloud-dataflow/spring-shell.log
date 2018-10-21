@@ -77,3 +77,32 @@ stream destroy toll-stationid-counter
 // [failed] stream create toll-stationid-counter --definition "toll-stream.split-JSON > field-value-counter --name=counter --field-name=stationid --spring.cloud.stream.bindings.input.contentType='application/json'"
 stream create toll-stationid-counter --definition ":toll-stream.split-JSON > field-value-counter --name=counter --field-name=stationid --spring.cloud.stream.bindings.input.contentType='application/json'"
 stream deploy toll-stationid-counter
+// dataflow 1.2.0.RELEASE log opened at 2018-10-21 13:12:16
+app register --name fraudcheck --type processor --uri file:///Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/dataflow/dataflow-scoring-stream-app/target/pluralsight-dataflow-scoring-stream-app-0.0.1-SNAPSHOT.jar
+// [failed] app info processor:fraudcheck
+// [failed] app info processor:fraudcheck
+// [failed] app info
+// [failed] app info
+// dataflow 1.2.0.RELEASE log opened at 2018-10-21 13:13:58
+clear
+// dataflow 1.2.0.RELEASE log opened at 2018-10-21 13:14:20
+// [failed] app info
+// [failed] app register --name fraudcheck --type processor --uri file:///Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/dataflow/dataflow-scoring-stream-app/target/pluralsight-dataflow-scoring-stream-app-0.0.1-SNAPSHOT.jar
+// [failed] app register --name fraudcheck --type processor --uri file:///Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/dataflow/dataflow-scoring-stream-app/target/pluralsight-dataflow-scoring-stream-app-0.0.1-SNAPSHOT.jar
+// [failed] app register --name fraudcheck --type processor --uri file:///Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/dataflow/dataflow-scoring-stream-app/target/pluralsight-dataflow-scoring-stream-app-0.0.1-SNAPSHOT.jar
+// [failed] app register --name fraudcheck --type processor --uri file:///Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/dataflow/dataflow-scoring-stream-app/target/pluralsight-dataflow-scoring-stream-app-0.0.1-SNAPSHOT.jar
+// [failed] app register --name fraudcheck --type processor --uri file:///Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/dataflow/dataflow-scoring-stream-app/target/pluralsight-dataflow-scoring-stream-app-0.0.1-SNAPSHOT.jar
+// [failed] app register --name fraudcheck --type processor --uri file:///Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/dataflow/dataflow-scoring-stream-app/target/pluralsight-dataflow-scoring-stream-app-0.0.1-SNAPSHOT.jar
+// [failed] app register --name fraudcheck --type processor --uri file:///Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/dataflow/dataflow-scoring-stream-app/target/pluralsight-dataflow-scoring-stream-app-0.0.1-SNAPSHOT.jar
+// dataflow 1.2.0.RELEASE log opened at 2018-10-21 13:15:27
+// [failed] app info
+// dataflow 1.2.0.RELEASE log opened at 2018-10-21 13:16:07
+// [failed] app info
+stream list
+app register --name fraudcheck --type processor --uri file:///Users/davidpetro/Documents/courses/java/java-playground/spring/cloud/dataflow/dataflow-scoring-stream-app/target/pluralsight-dataflow-scoring-stream-app-0.0.1-SNAPSHOT.jar
+app list
+// [failed] app info processor:fraudcheck
+// [failed] app info processor:fraudcheck
+// [failed] app info processor:transform
+// [failed] app info processor:fraudcheck
+// [failed] app info sink:ftp

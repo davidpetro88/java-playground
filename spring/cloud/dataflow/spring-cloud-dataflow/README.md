@@ -221,10 +221,10 @@ toll-stream=http --port=8086 | split-JSON: splitter --expression="#jsonPath(payl
 ```
 
 
-- POST localhost:8086
+- Test
+  - POST localhost:8086
 
 ```
-
 {
     "station": {
         "readings": [
@@ -239,78 +239,31 @@ toll-stream=http --port=8086 | split-JSON: splitter --expression="#jsonPath(payl
                 "timestamp":"2017-07-15T08:13:55"
             },
             {
-                "stationid":100,
+                "stationid":110,
                 "customerid":210,
                 "timestamp":"2017-07-15T08:14:03"
-            }
-        ]
-    }
-}
-
-```
-
-###  counter
-
-- create by terminal
-```
-stream create toll-station-counter --definition ":toll-stream.split-JSON > counter"
-```
-
-- create by dashboard
-```
-toll-station-counter=:toll-steam.split-JSON > counter --name=toll-count
-```
-
-- POST localhost:8086 (in the other stream)
-
-```
-
-{
-    "station": {
-        "readings": [
+            },
             {
-                "stationid":100,
+                "stationid":500,
                 "customerid":200,
                 "timestamp":"2017-07-15T08:09:10"
             },
             {
-                "stationid":101,
+                "stationid":601,
                 "customerid":220,
                 "timestamp":"2017-07-15T08:13:55"
             },
             {
-                "stationid":100,
+                "stationid":110,
                 "customerid":210,
                 "timestamp":"2017-07-15T08:14:03"
             }
         ]
     }
 }
-
 ```
 
-- Analytics
-![](image7.png)
-
-![](image8.png)
+![](image11.png)
 
 
-### counter stationid
-
-- create by terminal
-```
-stream create toll-stationid-counter --definition ":toll-stream.split-JSON > field-value-counter --name=counter --field-name=stationid --spring.cloud.stream.bindings.input.contentType='application/json'"
-
-stream deploy toll-stationid-counter
-
-```
-
-- create by dashboard
-```
-toll-stationid-counter=:toll-stream.split-JSON > field-value-counter --name=counter --field-name=stationid --spring.cloud.stream.bindings.input.contentType='application/json'
-```
-
-- Analytics
-![](image9.png)
-
-![](image10.png)
+![](image12.png)
