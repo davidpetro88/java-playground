@@ -43,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/stream-tollintake/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="68">
-                <caret line="4" column="130" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="130" />
+              <first_editor relative-caret-position="17">
+                <caret line="4" column="130" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="130" />
               </first_editor>
               <second_editor />
             </state>
@@ -214,6 +214,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,8 +302,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,16 +486,16 @@
       <workItem from="1538247019721" duration="1277000" />
       <workItem from="1538612995861" duration="6782000" />
       <workItem from="1538945831177" duration="4928000" />
-      <workItem from="1539560303260" duration="576000" />
+      <workItem from="1539560303260" duration="1045000" />
+      <workItem from="1539993895978" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33061000" />
+    <option name="totallyTimeSpent" value="33540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -518,7 +518,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5208333" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29041487" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29470673" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -946,8 +946,8 @@
     <entry file="file://$PROJECT_DIR$/stream-tollintake/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="130" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="130" />
+          <first_editor relative-caret-position="17">
+            <caret line="4" column="130" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="130" />
           </first_editor>
           <second_editor />
         </state>

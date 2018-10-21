@@ -24,3 +24,56 @@ app list
 clear
 app import --uri http://bit.ly/Clark-GA-task-applications-maven
 app list
+task create demotask --definition "timestamp --format=\MM-yy\""
+// [failed] task create demotask --definition "timestamp --format=\MM-yy\"
+task launch demotask
+task execution list
+task destroy demotask
+// [failed] stream create --name toll-stream --definition "http --port=8086 | split-JSON: splitter --exxpression=#jsonPath(payload,'$.station.readings') --spring.cloud.stream.bindings.output.contentType='application/json' | log"
+// [failed] stream create --name toll-stream --definition "http --port=8086 | split-JSON: splitter --exxpression=#jsonPath(payload,$.station.readings) --spring.cloud.stream.bindings.output.contentType='application/json' | log"
+// [failed] stream create --name toll-stream --definition "http --port=8086 | split-JSON: splitter --expression=#jsonPath(payload,'$.station.readings') --spring.cloud.stream.bindings.output.contentType='application/json' | log"
+// [failed] stream create --name toll-stream --definition "toll-stream=http --port=8086 | split-JSON: splitter --expression=#jsonPath(payload,'$.station.readings') --spring.cloud.stream.bindings.output.contentType='application/json' | log"
+stream create --name toll-stream --definition "toll-stream=http --port=8086 | split-JSON: splitter --expression='#jsonPath(payload,'$.station.readings')' --spring.cloud.stream.bindings.output.contentType='application/json' | log"
+// [failed] stream deploy tool-stream
+// [failed] stream deploy toll-stream --properties deployer.*,local.inheritLogging=true
+// [failed] stream deploy toll-stream --properties deployer.*,local.inheritLogging=true
+// [failed] stream deploy toll-stream --properties "deployer.*,local.inheritLogging=true"
+stream deploy toll-stream --properties "deployer.local.inheritLogging=true"
+// [failed] stream undeploy tool-stream
+stream undeploy toll-stream
+clear
+stream list
+stream destroy filestream1
+stream destroy firstExample-Hello
+clear
+stream deploy toll-stream
+stream destroy toll-stream
+// [failed] stream create --name toll-stream --definition "toll-stream=http --port=8086 | split-JSON: splitter --expression=#jsonPath(payload,'$.station.readings') --spring.cloud.stream.bindings.output.contentType='application/json' | log"
+// [failed] stream create --name toll-stream --definition "toll-stream=http --port=8086 | split-JSON: splitter --expression=#jsonPath(payload,$.station.readings) --spring.cloud.stream.bindings.output.contentType='application/json' | log"
+stream create --name toll-stream --definition "toll-stream=http --port=8086 | split-JSON: splitter --expression='#jsonPath(payload,$.station.readings)' --spring.cloud.stream.bindings.output.contentType='application/json' | log"
+stream deploy toll-stream
+// dataflow 1.2.0.RELEASE log opened at 2018-10-20 20:26:25
+// [failed] app list
+// dataflow 1.2.0.RELEASE log opened at 2018-10-20 20:29:26
+app list
+stream list
+clear
+stream create foo --definition "toll-stream=http --port=8086 | split-JSON: splitter --expression=\"#jsonPath(payload,'$.station.readings')\" --spring.cloud.stream.bindings.output.contentType='application/json' | log"
+// dataflow 1.2.0.RELEASE log opened at 2018-10-20 21:18:14
+stream create toll-stream --definition "http --port=8086 | split-JSON: splitter --expression=\"#jsonPath(payload,'$.station.readings')\" --spring.cloud.stream.bindings.output.contentType='application/json' | log"
+stream deploy toll-stream
+clear
+// [failed] stream create toll-stream --definition "toll-station-counter=:toll-stream.split-JSON > counter --name=toll-count "
+// [failed] stream create toll-count --definition "toll-station-counter=':toll-stream.split-JSON > counter'"
+clear
+stream create toll-station-counter --definition ":toll-stream.split-JSON > counter"
+stream list
+stream list
+stream destroy toll-stream
+// dataflow 1.2.0.RELEASE log opened at 2018-10-21 12:07:51
+stream destroy toll-stream
+stream list
+stream destroy toll-stationid-counter
+// [failed] stream create toll-stationid-counter --definition "toll-stream.split-JSON > field-value-counter --name=counter --field-name=stationid --spring.cloud.stream.bindings.input.contentType='application/json'"
+stream create toll-stationid-counter --definition ":toll-stream.split-JSON > field-value-counter --name=counter --field-name=stationid --spring.cloud.stream.bindings.input.contentType='application/json'"
+stream deploy toll-stationid-counter
