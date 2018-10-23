@@ -267,3 +267,13 @@ toll-stream=http --port=8086 | split-JSON: splitter --expression="#jsonPath(payl
 
 
 ![](image12.png)
+
+
+
+### Tasks
+
+- import  maven local
+```
+dataflow:>app register --name task1 --type task --uri maven://pluralsight.demo:pluralsight-dataflow-task1:0.0.1-SNAPSHOT
+Successfully registered application 'task:task1'
+```
