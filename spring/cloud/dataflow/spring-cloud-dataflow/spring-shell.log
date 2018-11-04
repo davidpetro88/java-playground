@@ -107,3 +107,9 @@ app list
 // [failed] app info processor:fraudcheck
 // [failed] app info sink:ftp
 app register --name task1 --type task --uri maven://pluralsight.demo:pluralsight-dataflow-task1:0.0.1-SNAPSHOT
+clear
+// [failed] app register --name task1 --type task --uri maven://pluralsight.demo:pluralsight-dataflow-task1:0.0.1-SNAPSHOT
+// [failed] app register --name task1 --type task --uri maven://pluralsight.demo:pluralsight-dataflow-task1:0.0.1-SNAPSHOT
+// [failed] app register --name task1 --type task --uri maven://pluralsight.demo:pluralsight-dataflow-task1:0.0.1-SNAPSHOT
+exit
+// dataflow 1.2.0.RELEASE log closed at 2018-11-02 10:16:47

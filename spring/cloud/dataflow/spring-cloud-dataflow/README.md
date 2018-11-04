@@ -277,3 +277,8 @@ toll-stream=http --port=8086 | split-JSON: splitter --expression="#jsonPath(payl
 dataflow:>app register --name task1 --type task --uri maven://pluralsight.demo:pluralsight-dataflow-task1:0.0.1-SNAPSHOT
 Successfully registered application 'task:task1'
 ```
+- create by dashboard
+
+```
+task1 --destination-file-path=dpath1 --control-message=sucess
+```
