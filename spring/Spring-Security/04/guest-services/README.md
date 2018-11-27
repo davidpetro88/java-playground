@@ -20,6 +20,22 @@ curl -X POST \
 ```
 
 
+```
+
+curl -X POST \
+  http://localhost:8100/oauth/check_token \
+  -H 'authorization: bearer ea2beecf-33b0-461d-94c7-6f666c139ffb' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
+  -H 'postman-token: 43ffebe6-1ecf-d501-6b43-be9b29a7f11b' \
+  -F token=c7931554-cb1b-4e26-b9d7-0ff50a818ade
+  
+  
+{"scope":["READ_ALL_GUESTS","WRITE_GUEST","UPDATE_GUEST"],"active":true,"exp":1543374614,"authorities":["ROLE_GUESTS_AUTHORIZED_CLIENT"],"client_id":"guest_app"}
+
+```
+
+
  
  
 ```
